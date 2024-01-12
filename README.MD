@@ -1,14 +1,13 @@
-# Purpose
-This program provides an easy-to-use interface for monitoring and querying the Bazaar
-
-  <img src="https://github.com/toastxc/hypixel-gui/blob/main/README_RESOURCES/App.png" alt="Screenshot of App" width="60%" height="60%">
+## EGUI Demo
+This is a simple example of how I use Egui with a HTTP library and tokio
 
 
-# Installation
+### main.rs
+this file contains the program struct, its fields as well as the default constructor
 
-## Linux
-```bash
-curl --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/toastxc/hypixel-gui/main/automation/install.sh  | sh
-```
-## Windows
-Not yet made
+### process.rs
+This is where asyncrinous threads are spawned and other logical processing happens
+
+### view.rs
+This is the main ui layout 
+
